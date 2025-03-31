@@ -3,7 +3,7 @@
     "name": "voxa",
     "slug": "voxa",
     "version": "1.0.0",
-
+    "newArchEnabled": true,
     "scheme": "voxa",
     "web": {
       "bundler": "metro",

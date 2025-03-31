@@ -6,7 +6,10 @@ import { HeaderButton } from '../../components/HeaderButton';
 
 const DrawerLayout = () => {
   return (
-    <Drawer>
+    <Drawer
+      screenOptions={{
+        headerShown: false,
+      }}>
       <Drawer.Screen
         name="index"
         options={{
@@ -22,14 +25,14 @@ const DrawerLayout = () => {
         options={{
           headerTitle: 'Tabs',
           drawerLabel: 'Tabs',
-          drawerIcon: ({ size, color }) => (
-            <MaterialIcons name="border-bottom" size={size} color={color} />
-          ),
-          headerRight: () => (
-            <Link href="/modal" asChild>
-              <HeaderButton />
-            </Link>
-          ),
+          // drawerIcon: ({ size, color }) => (
+          //   <MaterialIcons name="border-bottom" size={size} color={color} />
+          // ),
+          // headerRight: () => (
+          //   <Link href="/modal" asChild>
+          //     <HeaderButton />
+          //   </Link>
+          // ),
         }}
       />
     </Drawer>

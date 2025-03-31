@@ -1,4 +1,5 @@
 import { Stack } from 'expo-router';
+import { Text, View } from 'react-native';
 
 import { Container } from '~/components/Container';
 import { ScreenContent } from '~/components/ScreenContent';
@@ -8,7 +9,9 @@ export default function Home() {
     <>
       <Stack.Screen options={{ title: 'Tab One' }} />
       <Container>
-        <ScreenContent path="app/(drawer)/(tabs)/index.tsx" title="Tab One" />
+        <View className="flex-1 items-center justify-center">
+          <Text>Hellow</Text>
+        </View>
       </Container>
     </>
   );
