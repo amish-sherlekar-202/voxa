@@ -1,12 +1,9 @@
 import { initializeApp } from 'firebase/app';
-
-// Optionally import the services that you want to use
 import {getAnalytics} from "firebase/analytics";
 import {getAuth} from "firebase/auth";
 import {getDatabase} from "firebase/database";
 import {getFirestore} from "firebase/firestore";
 
-// Initialize Firebase
 const firebaseConfig = {
   apiKey: "AIzaSyDRfxmzugRxD6VrZ7QCoYqiaaWrA8topdg",
   authDomain: "voxa-rn.firebaseapp.com",
@@ -19,7 +16,8 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app)
-const firestore = getFirestore(app)
-const db = getDatabase(app)
-export default {app, analytics, firestore, db};
+const analytics = getAnalytics(app);
+const auth = getAuth(app);
+const firestore = getFirestore(app);
+const db = getDatabase(app);
+export default {app, analytics, auth, firestore, db};

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "326440922618",
+    "firebase_url": "https://voxa-rn-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "voxa-rn",
+    "storage_bucket": "voxa-rn.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326440922618:android:c04341ac6f023a7a254843",
+        "android_client_info": {
+          "package_name": "com.amish_sherlekar_202.voxa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCffSKiaBEFK4X2qUzkGJeYxKNzmQhbIzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
